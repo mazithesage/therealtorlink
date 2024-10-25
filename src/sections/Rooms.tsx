@@ -46,7 +46,7 @@ const Rooms = () => {
               <img
                 className="w-full h-full bg-cover"
                 src={room.img1}
-                alt="Link Room"
+                alt="Hotel Room"
               />
             </div>
           ))}
@@ -108,7 +108,7 @@ const Rooms = () => {
                 <img
                   className="w-full h-full bg-cover"
                   src={room.img2}
-                  alt="Link Room"
+                  alt="Hotel Room"
                 />
               </div>
             ))}
@@ -126,7 +126,7 @@ const Rooms = () => {
         <div className="md:pt-[30px] flex-1 md:flex-none md:w-[30%] flex flex-col justify-between">
           <div className="w-fit hidden xl:flex items-center gap-[10px] border border-[#313F38] border-opacity-[0.48] px-[25px] py-[10px] rounded-[50px]">
             <img src={starImg} alt="Star Icon" />
-            <p className="text-[22px]">Since 2024</p>
+            <p className="text-[22px]">Since 1973</p>
           </div>
           <div className="mt-[40px] xl:mt-[90px]">
             <h1 className="hidden md:block relative text-4xl font-Miracle capitalize tracking-wide">
@@ -178,7 +178,7 @@ const Rooms = () => {
                 <img
                   className="w-full h-full bg-cover"
                   src={room.img1}
-                  alt="Link Room"
+                  alt="Hotel Room"
                 />
               </div>
             ))}

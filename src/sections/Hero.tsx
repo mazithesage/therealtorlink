@@ -12,10 +12,10 @@ const Hero = () => {
       <div className="w-full flex flex-col xmd:flex-row items-center xl:items-start justify-between">
         <div className="mb-[24px] xmd:mb-0">
           <h1 className="text-[70px] vsm:text-[80px] md:text-[120px] text-center xmd:text-start xl:text-[140px] 2xl:text-[170px] font-Miracle leading-[1.2]">
-            Realtor<span className="text-yellow">Link</span>
+            Bank<span className="text-yellow">Hotel</span>
           </h1>
           <p className="mt-[19px] text-center xmd:text-start text-[14px] xl:text-lg text-yellow uppercase">
-            Easing the housing process.
+            rooms // restaurant // congress hall // wine bar
           </p>
         </div>
 
@@ -24,10 +24,11 @@ const Hero = () => {
         <div className="w-[90%] vsm:w-[60%] xmd:w-[20%] xl:w-[28%] order-3 xl:order-2">
           <div className="w-fit hidden xl:flex items-center gap-[10px] border border-[#FFFCF6] border-opacity-[0.32] px-[25px] py-[10px] rounded-[50px]">
             <img src={starImg} alt="Star Icon" />
-            <p className="text-[22px]">Since 2024</p>
+            <p className="text-[22px]">Since 1973</p>
           </div>
           <p className="xl:mt-[96px] text-center xmd:text-start text-[13px] xl:text-base leading-relaxed opacity-80">
-          Your Exclusive Link to America's Best Housing Deals!
+            The luxurious hotel in the most beautiful European city with an
+            exclusive restaurant, conference-hall, and art-bar.
           </p>
         </div>
 
