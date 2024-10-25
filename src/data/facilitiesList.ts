@@ -19,6 +19,6 @@ export const facilities = [
     img: facility3,
     name: "Wine Bar “Reserve”",
     id: "bar",
-    desc: "The Link's Wine Bar, invites guests to savor a refined experience with its curated selection of fine wines from around the world. The intimate ambiance, complemented by artisanal cheeses and gourmet snacks, creates the perfect setting for wine enthusiasts and casual patrons alike.",
+    desc: "The Link's Wine Bar,, invites guests to savor a refined experience with its curated selection of fine wines from around the world. The intimate ambiance, complemented by artisanal cheeses and gourmet snacks, creates the perfect setting for wine enthusiasts and casual patrons alike.",
   },
 ];

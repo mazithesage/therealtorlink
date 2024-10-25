@@ -27,8 +27,8 @@ const Hero = () => {
             <p className="text-[22px]">Since 2024</p>
           </div>
           <p className="xl:mt-[96px] text-center xmd:text-start text-[13px] xl:text-base leading-relaxed opacity-80">
-            The luxurious Link in the most beautiful European city with an
-            exclusive restaurant, conference-hall, and art-bar.
+          Your inside link to America’s best housing deals! We make finding the perfect place easier and more affordable. 
+          Let us guide you to the right home, right price, right now.
           </p>
         </div>
 

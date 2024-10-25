@@ -12,6 +12,15 @@ const MobileMenu = () => {
       <div className="nav flex flex-1 flex-col gap-[40px] px-[20px]">
         <ScrollLink
           onClick={() => setIsOpen(false)}
+          to="home"
+          duration={500}
+          smooth={true}
+        >
+          HOME
+        </ScrollLink>
+
+        <ScrollLink
+          onClick={() => setIsOpen(false)}
           to="about"
           duration={500}
           smooth={true}
@@ -31,24 +40,6 @@ const MobileMenu = () => {
 
         <ScrollLink
           onClick={() => setIsOpen(false)}
-          to="restaurant"
-          duration={1000}
-          smooth={true}
-        >
-          RESTAURANT
-        </ScrollLink>
-
-        <ScrollLink
-          onClick={() => setIsOpen(false)}
-          to="conference-hall"
-          duration={1000}
-          smooth={true}
-        >
-          CONFERENCE HALL
-        </ScrollLink>
-
-        <ScrollLink
-          onClick={() => setIsOpen(false)}
           to="contact"
           duration={1000}
           smooth={true}
@@ -56,6 +47,9 @@ const MobileMenu = () => {
           CONTACT
         </ScrollLink>
       </div>
+    </div>
+  );
+};
 
       <p className="mt-[50px] mb-[20px] text-xl font-normal uppercase leading-tight text-center">
         +38 032 297 50 20

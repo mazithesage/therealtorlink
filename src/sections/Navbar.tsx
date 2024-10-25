@@ -27,21 +27,15 @@ const Navbar = () => {
           </ScrollLink>
         </li>
         <li>
-          <ScrollLink to="restaurant" duration={1000} smooth={true}>
-            RESTAURANT
-          </ScrollLink>
-        </li>
-        <li>
-          <ScrollLink to="conference-hall" duration={1000} smooth={true}>
-            CONFERENCE HALL
-          </ScrollLink>
-        </li>
-        <li>
           <ScrollLink to="contact" duration={1000} smooth={true}>
             CONTACT
           </ScrollLink>
         </li>
       </ul>
+    </nav>
+  );
+};
+
 
       <p className="hidden xl:block text-base uppercase leading-tight">
         +38 032 297 50 20
