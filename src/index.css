@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Miracle";
+  src: local("Miracle"), url(./fonts/Miracle.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTStd";
+  src: local("HelveticaNeueLTStd"),
+    url(./fonts/HelveticaNeueLTStd.otf) format("opentype");
+}
+
+body {
+  background-color: #313f38;
+  color: #fffcf6;
+  font-family: "HelveticaNeueLTStd", sans-serif;
+}
+
+@layer components {
+  nav ul li a {
+    @apply text-sm leading-tight cursor-pointer;
+  }
+  .mobile-menu .nav a {
+    @apply mb-[20px] text-[30px] bg-[red] uppercase leading-[0];
+  }
+
+  .hero .button {
+    @apply hidden w-[250px] h-fit xl:w-[300px] py-[30px] xmd:flex justify-center;
+  }
+
+  .galllery-section h1 {
+    @apply font-Miracle text-[40px]  sm:text-[80px] md:text-[100px] hover:text-white duration-200 whitespace-nowrap;
+    color: rgba(255, 252, 246, 0.12);
+  }
+
+  form input {
+    @apply w-full border-green/30 border px-[10px] py-[5px] rounded-[20px] bg-green/10;
+  }
+  form input::placeholder {
+    @apply font-Miracle text-green tracking-wide;
+  }
+
+  .player svg {
+    @apply cursor-pointer text-[20px];
+  }
+}
+
+.hero .blurbg {
+  background: rgba(49, 63, 56, 0.48);
+  backdrop-filter: blur(20px);
+}
+
+.rooms-section .btnBg {
+  fill: #fcd043;
+}
+
+/* slide1 */
+.galllery-section .slide > div {
+  animation: slide-left 8s infinite linear;
+}
+.galllery-section .slide > div:hover {
+  animation-play-state: paused;
+}
+@keyframes slide-left {
+  to {
+    transform: translateX(-50%);
+  }
+}
+/* slide2 */
+.galllery-section .slide2 > div {
+  animation: slide-right 8s infinite linear;
+}
+.galllery-section .slide2 > div:hover {
+  animation-play-state: paused;
+}
+@keyframes slide-right {
+  to {
+    transform: translateX(0%);
+  }
+}
