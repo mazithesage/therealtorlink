@@ -15,7 +15,7 @@ const Hero = () => {
             Realtor<span className="text-yellow">Link</span>
           </h1>
           <p className="mt-[19px] text-center xmd:text-start text-[14px] xl:text-lg text-yellow uppercase">
-            rooms // restaurant // congress hall // wine bar
+            Easing the housing process.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="w-[90%] vsm:w-[60%] xmd:w-[20%] xl:w-[28%] order-3 xl:order-2">
           <div className="w-fit hidden xl:flex items-center gap-[10px] border border-[#FFFCF6] border-opacity-[0.32] px-[25px] py-[10px] rounded-[50px]">
             <img src={starImg} alt="Star Icon" />
-            <p className="text-[22px]">Since 1973</p>
+            <p className="text-[22px]">Since 2024</p>
           </div>
           <p className="xl:mt-[96px] text-center xmd:text-start text-[13px] xl:text-base leading-relaxed opacity-80">
             The luxurious Link in the most beautiful European city with an
