@@ -18,24 +18,24 @@ const Gallery = () => {
         <img
           className="hidden md:block w-[150px] xl:w-fit"
           src={img1}
-          alt="hotel"
+          alt="Link"
         />
         <div className="w-[90%] vsm:w-[80%] md:w-[36%] text-[13px] xl:text-base opacity-80 text-center leading-[1.2] xl:leading-7">
           Explore our spacious rooms with the gorgeous view to the historical
           part of the city. Each room has an exclusive interior design decorated
           with modern art pieces that will make your stay unforgettable.
         </div>
-        <img className="hidden md:block" src={img2} alt="hotel" />
+        <img className="hidden md:block" src={img2} alt="Link" />
       </div>
 
       <div className="w-full mt-[50px] md:mt-0 px-[20px] xl:px-[40px] flex justify-center md:justify-between md:items-end">
         <img
           className="hidden md:block w-[139px] xl:w-fit h-fit"
           src={img3}
-          alt="hotel"
+          alt="Link"
         />
         <div className="w-full vsm:w-[45%] flex flex-col justify-start gap-[30px] xl:gap-[70px]">
-          <img className="w-full h-fit" src={img4} alt="hotel" />
+          <img className="w-full h-fit" src={img4} alt="Link" />
           <div className="flex gap-[10px] xl:gap-[30px] justify-center sm:justify-start items-center ">
             <svg
               className="w-[50px] h-[50px]"
@@ -59,33 +59,33 @@ const Gallery = () => {
         <img
           className="hidden md:block mb-[-100px] xl:mb-[-190px] z-[1] w-[241px] xl:w-fit h-fit"
           src={img5}
-          alt="hotel"
+          alt="Link"
         />
       </div>
 
       <div className="mt-[100px]">
         <div className="slide w-full overflow-x-hidden">
           <div className="w-fit flex gap-[40px]">
-            <h1 className="ml-[40px]">Bank hotel</h1>
-            <h1>Bank hotel</h1>
-            <h1>Bank__hotel©</h1>
-            <h1>Bank hotel</h1>
-            <h1>Bank hotel</h1>
-            <h1>Bank hotel</h1>
-            <h1>Bank__hotel©</h1>
-            <h1>Bank hotel</h1>
+            <h1 className="ml-[40px]">Realtor Link</h1>
+            <h1>Realtor Link</h1>
+            <h1>Realtor__Link©</h1>
+            <h1>Realtor Link</h1>
+            <h1>Realtor Link</h1>
+            <h1>Realtor Link</h1>
+            <h1>Realtor__Link©</h1>
+            <h1>Realtor Link</h1>
           </div>
         </div>
         <div className="slide2 w-full overflow-x-hidden">
           <div className="w-fit flex gap-[40px] translate-x-[-50%]">
-            <h1 className="ml-[40px]">Bank hotel</h1>
-            <h1>Bank hotel</h1>
-            <h1>Bank__hotel©</h1>
-            <h1>Bank hotel</h1>
-            <h1>Bank hotel</h1>
-            <h1>Bank hotel</h1>
-            <h1>Bank__hotel©</h1>
-            <h1>Bank hotel</h1>
+            <h1 className="ml-[40px]">Realtor Link</h1>
+            <h1>Realtor Link</h1>
+            <h1>Realtor__Link©</h1>
+            <h1>Realtor Link</h1>
+            <h1>Realtor Link</h1>
+            <h1>Realtor Link</h1>
+            <h1>Realtor__Link©</h1>
+            <h1>Realtor Link</h1>
           </div>
         </div>
       </div>

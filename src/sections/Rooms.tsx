@@ -46,7 +46,7 @@ const Rooms = () => {
               <img
                 className="w-full h-full bg-cover"
                 src={room.img1}
-                alt="Hotel Room"
+                alt="Link Room"
               />
             </div>
           ))}
@@ -108,7 +108,7 @@ const Rooms = () => {
                 <img
                   className="w-full h-full bg-cover"
                   src={room.img2}
-                  alt="Hotel Room"
+                  alt="Link Room"
                 />
               </div>
             ))}
@@ -178,7 +178,7 @@ const Rooms = () => {
                 <img
                   className="w-full h-full bg-cover"
                   src={room.img1}
-                  alt="Hotel Room"
+                  alt="Link Room"
                 />
               </div>
             ))}

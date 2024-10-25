@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="w-full flex flex-col xmd:flex-row items-center xl:items-start justify-between">
         <div className="mb-[24px] xmd:mb-0">
           <h1 className="text-[70px] vsm:text-[80px] md:text-[120px] text-center xmd:text-start xl:text-[140px] 2xl:text-[170px] font-Miracle leading-[1.2]">
-            Bank<span className="text-yellow">Hotel</span>
+            Realtor<span className="text-yellow">Link</span>
           </h1>
           <p className="mt-[19px] text-center xmd:text-start text-[14px] xl:text-lg text-yellow uppercase">
             rooms // restaurant // congress hall // wine bar
@@ -27,7 +27,7 @@ const Hero = () => {
             <p className="text-[22px]">Since 1973</p>
           </div>
           <p className="xl:mt-[96px] text-center xmd:text-start text-[13px] xl:text-base leading-relaxed opacity-80">
-            The luxurious hotel in the most beautiful European city with an
+            The luxurious Link in the most beautiful European city with an
             exclusive restaurant, conference-hall, and art-bar.
           </p>
         </div>

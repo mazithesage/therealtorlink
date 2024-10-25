@@ -39,7 +39,7 @@ const About = () => {
             High quality
           </h1>
           <p className="mt-[20px] text-[13px] xl:text-base opacity-60 leading-7">
-            The Five-star Bank Hotel was reopened to visitors in 2016. The
+            The Five-star Realtor Link was reopened to visitors in 2016. The
             building was renovated and modernized to meet the expectations of
             the most demanding guests. We offer luxurious rooms, numerous
             facilities, and exceptional service.

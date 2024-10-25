@@ -1,5 +1,5 @@
 import star from "../assets/star.svg";
-import hotelImg from "../assets/jean-philippe-delberghe-T5BF4OyQLwU-unsplash 1.png";
+import LinkImg from "../assets/jean-philippe-delberghe-T5BF4OyQLwU-unsplash 1.png";
 import curve from "../assets/Curve.png";
 import arrow1 from "../assets/footerarrow1.svg";
 import arrow2 from "../assets/footerarrow2.svg";
@@ -45,8 +45,8 @@ const Footer = ({ whiteBg }: FooterPropType) => {
         </div>
         <img
           className="absolute top-[210px] vsm:top-[230px] right-[20px] md:static w-[151px] vsm:w-[233px] xl:w-fit"
-          src={hotelImg}
-          alt="hotel room"
+          src={LinkImg}
+          alt="Link room"
         />
       </div>
       <h1 className="relative h-fit mt-[-100px] xl:mt-[-60px] text-end text-[84px] vsm:text-[100px] md:text-[150px] xl:text-[200px] text-yellow font-Miracle uppercase leading-[200px]">
@@ -94,11 +94,11 @@ const Footer = ({ whiteBg }: FooterPropType) => {
             About us
           </h1>
           <p className="mt-[10px] md:mt-[40px] mb-[10px] md:mb-[70px] w-[285px] opacity-80 text-base leading-7">
-            The five-star hotel in a beautiful European city with a modern
+            The five-star Link in a beautiful European city with a modern
             restaurant, conference-hall, and art-bar.
           </p>
           <div className="opacity-25 text-sm">
-            ©2023 All rights reserved. BankHotel
+            ©2023 All rights reserved. RealtorLink
           </div>
         </div>
 

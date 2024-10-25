@@ -23,7 +23,7 @@ const Facilities = () => {
           <img
             className="hidden opacity-0 xl:opacity-100 w-[245px] xl:w-fit xmd:block h-fit order-1 xl:order-3"
             src={img1}
-            alt="Hotel facility"
+            alt="Link facility"
           />
         </div>
 
@@ -31,10 +31,10 @@ const Facilities = () => {
           <img
             className="w-[245px] xl:w-fit h-fit"
             src={img2}
-            alt="Hotel facility"
+            alt="Link facility"
           />
           <p className="self-center vsm:self-end md:mb-[-100px] w-[80%] vsm:w-[300px] text-center vsm:text-left text-[13px] xl:text-base opacity-80 leading-7">
-            Bank Hotel offers you a wide range of additional services and
+            Realtor Link offers you a wide range of additional services and
             facilities. Visit our restaurant to try exclusive meals, book a
             conference hall to organize a business meeting, or relax in the
             art-bar.

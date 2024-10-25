@@ -30,7 +30,7 @@ const Facility = ({ facility, index }: FacilityPropType) => {
         <img
           className="w-[157px] vsm:w-[189px] xl:w-[217px] xl:h-[217px]"
           src={facility.img}
-          alt="Hotel Facility"
+          alt="Link Facility"
         />
 
         <ScrollLink
@@ -63,7 +63,7 @@ const Facility = ({ facility, index }: FacilityPropType) => {
         <img
           className="md:hidden block w-full"
           src={facility.img}
-          alt="Hotel Facility"
+          alt="Link Facility"
         />
 
         <div className="flex justify-between">
@@ -94,7 +94,7 @@ const Facility = ({ facility, index }: FacilityPropType) => {
           <img
             className="hidden md:block w-[35%] 2xl:w-fit"
             src={facility.img}
-            alt="Hotel Facility"
+            alt="Link Facility"
           />
         </div>
       </div>
